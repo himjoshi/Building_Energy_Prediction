@@ -11,6 +11,24 @@ ASHRAE(Kaggle)
 
 ### Data Size and Information:
 #### Training Data: 
-Energy consumption of 1,000 buildings over a three-year timeframe.
+Energy consumption of 1,450 buildings for 4 meter types for 2016 year on an hourly basis.
+Data size: 20216100 rows * 4 columns
+
+#### Weather Data:
+Weather data for 16 sites from 2016 to 2018 on an hourly basis.
+Data size: 417016 rows * 9 columns
+
+#### Building Information Data:
+Information of 1450 buildings about their construction year, # of floors etc.
+Data size: 1449 rows * 6 columns
+
+#### Testing Data:
+Testing will be done for 1450 buildings for their energy consumption from 2017 to 2018 year.
+Data size: 41697600 rows * 4 columns
+
+### Evaluation Metric:
+Predictions will be tested on Root Mean Square Logarithmic Error(RMSLE). 
+
+
 
 
